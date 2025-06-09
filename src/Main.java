@@ -35,7 +35,7 @@ public class Main {
         }
     }
 
-    // Adds items to ArrayList.
+    // Add items to ArrayList.
     private static void addItems(ArrayList<String> groceryList) {
         // Separate each item into an item in an array.
         System.out.println("Add item(s) [separate items by comma]:");
@@ -50,7 +50,7 @@ public class Main {
         }
     }
 
-    // Removes items from ArrayList.
+    // Remove items from ArrayList.
     private static void removeItems(ArrayList<String> groceryList) {
         // Separate each item into an item in an array.
         System.out.println("Remove item(s) [separate items by comma]:");
