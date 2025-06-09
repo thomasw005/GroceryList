@@ -29,6 +29,7 @@ public class Main {
                 case 2 -> removeItems(groceryList);
 
             }
+
             groceryList.sort(Comparator.naturalOrder());
             System.out.println(groceryList);
         }
