@@ -44,6 +44,9 @@ public class Main {
         // Remove unwanted characters and add to ArrayList.
         for (String item : items) {
             String trimmedItem = item.trim();
+            if (trimmedItem.isEmpty()) {
+                continue;
+            }
             if (!groceryList.contains(trimmedItem)) {
                 groceryList.add(trimmedItem);
             }
@@ -59,6 +62,9 @@ public class Main {
         // Remove unwanted characters and remove from ArrayList.
         for (String item : items) {
             String trimmedItem = item.trim();
+            if (trimmedItem.isEmpty()) {
+                continue;
+            }
             groceryList.remove(trimmedItem);
         }
     }
