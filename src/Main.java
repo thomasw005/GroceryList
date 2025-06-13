@@ -15,9 +15,9 @@ public class Main {
                     
                     0 - to shutdown
                     
-                    1 - to add item(s) to list (comma delimited list)
+                    1 - to add item(s) to list (comma-delimited list)
                     
-                    2 - to remove any items (comma delimited list)
+                    2 - to remove any items (comma-delimited list)
                     
                     Enter a number for which action you want to do:""" + " ");
 
