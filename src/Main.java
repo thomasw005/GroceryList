@@ -41,7 +41,7 @@ public class Main {
         System.out.println("Add item(s) [separate items by comma]:");
         String[] items = input.nextLine().split(",");
 
-        // Remove unwanted characters and add to ArrayList.
+        // Trim whitespace and add unique items to the list.
         for (String item : items) {
             String trimmedItem = item.trim();
             if (trimmedItem.isEmpty()) {
@@ -59,7 +59,7 @@ public class Main {
         System.out.println("Remove item(s) [separate items by comma]:");
         String[] items = input.nextLine().split(",");
 
-        // Remove unwanted characters and remove from ArrayList.
+        // Trim whitespace and remove items from the list.
         for (String item : items) {
             String trimmedItem = item.trim();
             if (trimmedItem.isEmpty()) {
